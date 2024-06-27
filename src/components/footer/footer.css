@@ -1,0 +1,13 @@
+.footer {
+    height: 26vh;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margins for better centering */
+  }
+  

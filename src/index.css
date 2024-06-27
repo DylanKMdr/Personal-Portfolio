@@ -1,13 +1,155 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --colour-bg: #000000; /* Black background */
+  --colour-bg-variant: #1a1a1a; /* Slightly lighter black for variant */
+  --colour-primary: #39FF14; /* Neon green */
+  --colour-primary-variant: #00ff51; /* Neon green with transparency */
+  --colour-white: #fff; /* White */
+  --colour-light: rgba(255, 255, 255, 0.6); /* Light white */
+  --seafoam: #3ded97;
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  background: var(--colour-bg);
+  color: var(--colour-bg-variant);
+  line-height: 1.7;
+}
+
+/* ========== GENERAL STYLES ========== */
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 800;
+  font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+section {
+  margin-top: 8rem;
+  height: 100vh;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+  color: var(--colour-light);
+}
+
+section > h2 {
+  color: var(--colour-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--colour-light);
+}
+
+.text-primary {
+  color: var(--colour-primary)
+}
+
+.text-white {
+  color: var(--colour-white);
+}
+
+.text-seafoam {
+  color: var(--seafoam)
+}
+
+a {
+  color: var(--colour-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--colour-white);
+}
+
+
+.btn { /* Change this to your desired color */
+  font-family: 'League Spartan', sans-serif;
+  background-color: var(--colour-primary-variant);
+  color: var(--colour-bg); /* Change this to your desired text color */
+  border: none;
+  padding: 5px 10px; /* Adjust the padding to control the size of the button */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px; /* Adjust the font size as needed */
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 5px solid var(--colour-primary-variant);
+  border-radius: 50px; /* This makes the button oval-shaped */
+}
+
+.btn:hover {
+  background: var(--colour-white);
+  color: var(--colour-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--colour-primary-variant);
+  color: var(--colour-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }
