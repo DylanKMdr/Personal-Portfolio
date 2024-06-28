@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://dylankmdr.github.io/Personal-Portfolio/",
+  "homepage": "https://dylankmdr.github.io/Personal-Portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
