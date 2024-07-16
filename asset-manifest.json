@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.137798bb.css",
-    "main.js": "/Personal-Portfolio/static/js/main.5953e912.js",
+    "main.css": "/Personal-Portfolio/static/css/main.987ae41a.css",
+    "main.js": "/Personal-Portfolio/static/js/main.effb24f9.js",
     "static/media/Engineer Resume.pdf": "/Personal-Portfolio/static/media/Engineer Resume.3b25de8ddacb434cf36d.pdf",
     "static/media/profile_photo.JPG": "/Personal-Portfolio/static/media/profile_photo.a5f84b9e2b929f063b4a.JPG",
     "static/media/computer.jpeg": "/Personal-Portfolio/static/media/computer.c2502a63aa8a4437b83c.jpeg",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.137798bb.css.map": "/Personal-Portfolio/static/css/main.137798bb.css.map",
-    "main.5953e912.js.map": "/Personal-Portfolio/static/js/main.5953e912.js.map"
+    "main.987ae41a.css.map": "/Personal-Portfolio/static/css/main.987ae41a.css.map",
+    "main.effb24f9.js.map": "/Personal-Portfolio/static/js/main.effb24f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.137798bb.css",
-    "static/js/main.5953e912.js"
+    "static/css/main.987ae41a.css",
+    "static/js/main.effb24f9.js"
   ]
 }
